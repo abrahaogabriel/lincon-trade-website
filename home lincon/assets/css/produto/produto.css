@@ -1,0 +1,8 @@
+.produto {
+    width: 100vw;
+    height: 70vh;
+    background-color: #111164;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

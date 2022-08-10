@@ -1,0 +1,7 @@
+.qualidade__imagem {
+    width: 30vw;
+    height: 40vh;
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+}

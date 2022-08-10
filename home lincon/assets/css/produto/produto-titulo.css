@@ -1,0 +1,41 @@
+.produto__titulo {
+    font-size: 2.5rem;
+    color: #f2f2f2;
+    letter-spacing: 2px;
+    position: relative;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.produto__titulo:after {
+    content: "";
+    position: absolute;
+    background-color: #0b0b0b;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: -9px;
+    
+    border-radius: 10px;
+}
+
+.produto__subtitulo {
+    font-size: 1rem;
+    color: #f2f2f2;
+    letter-spacing: 1px;
+    position: relative;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.produto__descricao {
+    font-size: 1rem;
+    font-weight: 200;
+    color: #f2f2f2;
+}
+
+.produto ul li {
+    font-size: 1rem;
+    font-weight: 200;
+    color: #f2f2f2;
+}

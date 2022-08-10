@@ -1,0 +1,11 @@
+.formulario__card {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    background-color: #111164;
+    padding: 20px 40px;
+    margin-bottom: 70px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px #090909;
+
+}

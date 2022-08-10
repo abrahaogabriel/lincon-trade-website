@@ -1,0 +1,38 @@
+.cabecalho__item {
+    position: relative;
+    text-decoration: none;
+    color: #525252;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 7px;
+}
+
+.cabecalho__imagem {
+    width: 120px;
+}
+
+.cabecalho__item:after {
+    content: "";
+    position: absolute;
+    background-color: #1b33ab;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -9px;
+    border-radius: 10px;
+    transition: .3s;
+
+}
+
+.home:after {
+    width: 100%;
+}
+
+.cabecalho__item:hover {
+    color: #0c0c0c;
+}
+
+.cabecalho__item:hover:after {
+    width: 100%;
+
+}

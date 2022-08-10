@@ -1,0 +1,8 @@
+.imagemContainer {
+    width: 100vw;
+    height: 70vh;
+    background-image: url(../../img/containers.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100);
+}
